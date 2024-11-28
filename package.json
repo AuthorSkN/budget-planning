@@ -2,22 +2,24 @@
   "name": "budget-planning",
   "version": "0.1.0-develop",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "5.17.0",
     "@testing-library/react": "15.0.7",
     "@testing-library/user-event": "14.5.2",
-    "@types/jest": "29.5.14",
-    "@types/node": "22.10.1",
-    "@types/react": "18.3.12",
-    "@types/react-dom": "18.3.1",
     "react": "18.3.1",
     "react-dom": "18.3.1",
     "react-scripts": "5.0.1",
     "typescript": "4.9.5"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build"
+  "devDependencies": {
+    "@types/jest": "29.5.14",
+    "@types/node": "22.10.1",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1"
   },
   "eslintConfig": {
     "extends": [
