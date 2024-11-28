@@ -1,0 +1,14 @@
+{
+  "name": "budget-planning",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/AuthorSkN/budget-planning",
+  "author": "AuthorSkN <author.skn@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "react": "18.3.1",
+    "typescript": "5.7.2",
+    "redux": "5.0.1"
+  }
+}
