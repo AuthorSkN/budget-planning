@@ -7,6 +7,7 @@ interface CommonTransaction {
     amount: number
     account: Account
     type: TransactionType
+    date: Date
 }
 
 export interface IncomeTransaction extends CommonTransaction {
